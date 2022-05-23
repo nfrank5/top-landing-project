@@ -44,7 +44,7 @@ a {
     font-weight: 900;
 }
 
-.hero-secondary-text {
+.hero-secondary-text, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -120,7 +120,7 @@ button {
 
 }
 .quote-text {
-    padding: 50px 150px 0px 150px;
+    padding: 150px 250px 0px 250px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -130,7 +130,7 @@ button {
     margin-left: auto;
     font-family: 'Roboto', sans-serif;    font-size: 24px;
     justify-content: end;
-    padding: 0px 150px 50px 150px;
+    padding: 0px 150px 150px 150px;
     color: black;
 }
 
@@ -159,11 +159,16 @@ button {
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    font-size: 12px;
 }
 
 .button-section {
     margin-left: auto;
     padding: 15px;
+}
 
+.footer{
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
