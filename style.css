@@ -49,8 +49,12 @@ a {
     color: #E5E7EB;
 }
 button {
+    display: flex;
     background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
     border: none;
+
 }
 
 .sign-up-button {
@@ -74,6 +78,7 @@ button {
     padding: 50px 150px 50px 150px;
     display: flex;
     flex-direction: column;
+
 }
 .info-image {
     width: 200px;
@@ -127,4 +132,38 @@ button {
     justify-content: end;
     padding: 0px 150px 50px 150px;
     color: black;
+}
+
+/*ACTION*/
+
+
+.action {
+    display: flex;
+    margin: 100px 200px;
+    padding: 50px;
+    background-color: #3882F6;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.action-sign-up-button {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    padding: 5px 25px 5px 25px;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.button-section {
+    margin-left: auto;
+    padding: 15px;
+
 }
